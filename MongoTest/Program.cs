@@ -15,7 +15,7 @@ namespace MongoTest
 
             var users = userService.GetUsers();
 
-            if (users.Count() == 0) 
+            if (users.Count() == 0)
             {
                 userService.CreateUsers();
                 users = userService.GetUsers();
