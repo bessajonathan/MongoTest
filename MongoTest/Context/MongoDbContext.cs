@@ -20,7 +20,7 @@ namespace MongoTest.Context
             catch (Exception ex)
             {
                 Console.WriteLine("Conection error " + ex.Message);
-                Console.ReadLine();
+                Console.ReadKey();
             }
         }
 
